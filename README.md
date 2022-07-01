@@ -3,7 +3,7 @@ Fixes a bug in ENT_Hosties that causes players to have 2 knives at spawn, breaki
 
 ### Bug? I never saw any problem!
 Problems will start to be seen when a plugin tries to strip to weapons of the player.\
-Weapons are store in weapon slots, and the knife slots is used for both the knife and the taser.
+Weapons are stored in weapon slots, and the knife slots are used for both the knife and the taser.
 
 The problem is that ENT_Hosties seems to register a second invisible knife with the same ID (so it is basically the same knife, but referenced twice) in the weapon slot.
 
